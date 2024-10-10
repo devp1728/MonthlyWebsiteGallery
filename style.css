@@ -1,9 +1,122 @@
+
 #mango {
     height: 50px;
-    width: 50px;
-}
+    width: 100px;
 
+}
+.navbar {
+background:none
+
+}
+.navtext{
+  color:white;
+  text-shadow: 
+  2px 2px 0 rgba(58, 4, 255, 0.7), 
+  -2px -2px 0 rgba(55, 0, 255, 0.7),
+  2px -2px 0 rgba(43, 27, 100, 0.7), 
+  -2px 2px 0 rgba(43, 27, 100, 0.7); 
+}
+#dropdown{
+  color:white;
+  text-shadow: 
+  1px 1px 0 rgba(58, 4, 255, 0.7);
+}
+#aclass{
+  color:white;
+  text-shadow: 
+          2px 2px 0 rgba(58, 4, 255, 0.7), 
+          -2px -2px 0 rgba(55, 0, 255, 0.7),
+          2px -2px 0 rgba(43, 27, 100, 0.7), 
+          -2px 2px 0 rgba(43, 27, 100, 0.7); 
+}
 #sigma {
     height: 300px;
     width: 300px;
+}
+
+
+
+p {
+    color: white;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+  }
+h1 {
+    color: white;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      color: rgb(255, 255, 255); 
+      text-shadow: 
+          2px 2px 0 rgba(58, 4, 255, 0.7), 
+          -2px -2px 0 rgba(55, 0, 255, 0.7),
+          2px -2px 0 rgba(43, 27, 100, 0.7), 
+          -2px 2px 0 rgba(43, 27, 100, 0.7); 
+  }
+.navtext {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  li {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  .card-title {
+    font-size: 36px; 
+    color: rgb(0, 0, 0); 
+    text-shadow: 
+        2px 2px 0 rgba(58, 4, 255, 0.7), 
+        -2px -2px 0 rgba(55, 0, 255, 0.7),
+        2px -2px 0 rgba(43, 27, 100, 0.7), 
+        -2px 2px 0 rgba(43, 27, 100, 0.7); 
+        
+  }
+  .card {
+    background-color: rgb(255, 255, 255);
+    margin-right: auto; 
+    margin-left: auto;  
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    border-radius: 5px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2); 
+    text-align: center; 
+    transition: 0.5s;
+  }
+  .card:hover {
+    background-color: rgb(255, 255, 255);
+    margin-right: auto; 
+    margin-left: auto;  
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    border-radius: 5px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2); 
+    text-align: center; 
+    scale: 105%;
+    transition: 0.5s;
+  }
+  body{
+    background-image: url('https://img.clipart-library.com/2/clip-snow-falling-gif-background/clip-snow-falling-gif-background-28.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
